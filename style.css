@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -8,6 +9,10 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 28px;
+    margin: 0;
+    
 }
 
 .headercontent {
@@ -18,10 +23,14 @@ body {
 
 .signup1 {
     width: fit-content;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    margin: 4px;
 }
 
 .headerimg {
-    width: 350px;
+    width: 200px;
     height: auto;
     display: inline-flex;
 }
@@ -54,3 +63,29 @@ a {
     padding: 0 10px;
 }
 
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: inherit;
+    padding: 10px 16px;
+    text-align: center;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
